@@ -3,7 +3,7 @@ const burger = document.querySelector(".burger");
 const line1 = document.querySelector(".line1");
 const line2 = document.querySelector(".line2");
 const line3 = document.querySelector(".line3");
-const links = document.querySelectorAll("a");
+const links = document.querySelectorAll(".nav-links li a");
 
 burger.addEventListener("click", () => {
     nav.classList.toggle("nav-open");
